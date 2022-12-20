@@ -1,0 +1,25 @@
+.colors {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colors span {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: var(--clr);
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.colors span.action {
+    border: 2px solid #333;
+    scale: 1.5;
+}

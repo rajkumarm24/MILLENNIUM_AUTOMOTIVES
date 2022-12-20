@@ -1,0 +1,43 @@
+body {
+    background: #1dd1a1;
+
+}
+
+
+body img {
+    text-align: center;
+    align-items: center;
+}
+
+
+body iframe {
+    align-items: center;
+    margin: 100px;
+    display: flex;
+}
+
+.colors {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colors span {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: var(--clr);
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.colors span.action {
+    border: 2px solid #333;
+    scale: 1.5;
+}
